@@ -2,9 +2,9 @@
 //трёхзначное число и на выходе показывает вторую цифру этого
 //числа.
 
-Console.Write("Введите число: ");
+Console.Write("Введите трехзначное число: ");
 int number = int.Parse(Console.ReadLine());
 
 int Number2nd = (number/10) % 10;
 
-Console.WriteLine($"{Number2nd}");
+Console.WriteLine($"Второе число {Number2nd}");
