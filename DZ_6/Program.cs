@@ -8,7 +8,7 @@ int number = int.Parse(Console.ReadLine());
 int Num = number/10;
 int Num1 = number/100;
 
-while (Num > 999)
+while (Num > 1000)
 {
     Num = Num / 10;
 }
